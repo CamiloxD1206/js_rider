@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camilo Tacue Salazar</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="cabeza">
+        <h1>Diagnostico js</h1>
+    </header>
+    <main class="cuerpo">
+        <h3>ingresa tu nombre</h3>
+        <input type="text" id="nombre">
+    <div class="container_meses">
+        <h3>Mes</h3>
+        <select name="meses" id="meses">
+            <option value="enero">enero</option>
+            <option value="febero">febrero</option>
+            <option value="marzo">marzo</option>
+            <option value="abril">abril</option>
+            <option value="mayo">mayo</option>
+            <option value="junio">junio</option>
+             <option value="julio">julio</option>
+             <option value="agosto">agosto</option>
+             <option value="septiembre">septiembre</option>
+             <option value="octubre">octubre</option>
+             <option value="noviembre">noviembre</option>
+             <option value="diciembre">diciembre</option>
+          </select>
+        
+    </div>
+    <div class="container_año">
+        <h3>Año</h3>
+        <select name="año" id="año">
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+             <option value="2019">2019</option>
+             <option value="2020">2020</option>
+             <option value="2021">2021</option>
+             <option value="2022">2022</option>
+             <option value="2023">2023</option>
+         
+          </select>
+        
+    </div>
+    <div class="container_trimestre">
+        <h3>Trimestre</h3>
+    <input type="text" id="trimestre">
+        </div>
+        <div class="container_competencia">
+            <h3>competencia</h3>
+        <input type="text" id="competencia">
+            </div>
+
+
+        <div class="opciones">
+        <input type="radio" name="ganador" value="aprobo" id="radio"> Gana
+        <br>
+        <input type="radio" name="ganador" value="perdio" id="radio">pierde
+    </div>
+    <div class="botom">
+        <input type="button" value="Datos" onclick="document.getElementById(dracula(nombre.value,meses.value,año.value,trimestre.value,competencia.value))" id="boton">
+    </div>
+    
+    <div>
+        <p id="texto">
+
+        </p>
+
+    </div>
+</main>
+<footer class="pie">
+
+</footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    
+}
+.cabeza{
+    text-align: center;
+    background-color: rgb(255, 225, 0);
+    padding: 2%;
+}
+.cuerpo{
+    margin:20px;
+    background-color:black;
+    color: white;
+    align-items: center;
+    width:50%;
+    padding:3%;
+    border-radius: 20px;
+    text-align: center;
+}
+.opciones{
+    margin:10px;
+}
+#boton{
+    padding:1%;
+    background-color: rgb(255, 200, 0);
+    border-radius:10px;
+    width: 100px;
+    border:0;
+}
+.botom{
+    padding:2%
+}

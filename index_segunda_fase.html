@@ -65,7 +65,7 @@
         <input type="radio" name="ganador" value="perdio" id="radio">pierde
     </div>
     <div class="botom">
-        <input type="button" value="Datos" onclick="document.getElementById(dracula(nombre.value,meses.value,año.value,trimestre.value,competencia.value))" id="boton">
+        <input type="button" value="Datos" onclick="document.getElementById(dracula(nombre.value,meses.value,año.value,trimestre.value,competencia.value, (check=document.querySelector('input[name=ganador]:checked')).value))"id="boton">
     </div>
     
     <div>

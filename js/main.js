@@ -23,19 +23,19 @@
 // }
 //segundafase-------------------index_segunda_fase---------------------------------------------
 
-function dracula(nombre,meses,año,competencia,trimestre){
-    let radio = document.querySelector('input[name="ganador"]:checked').value;
-    if(radio=='aprobo'){
-
-   let texto2=document.querySelector('#texto').textContent=(`El aprendiz ${nombre} aprobo la competencia ${trimestre},en el ${competencia} trimestre durante el mes de ${meses} del año ${año}`);
-}else if(radio=='perdio'){
-    let texto2=document.querySelector('#texto').textContent=(`El aprendiz ${nombre} perdio la competencia ${trimestre},en el ${competencia} trimestre durante el mes de ${meses} del año ${año}`);
-}
-}
-//tercerafase---------------index_segunda_fase-------------------------------------------------
 // function dracula(nombre,meses,año,competencia,trimestre){
-//     let array = [];
-//     array.push(nombre,meses,año,competencia,trimestre);
-//     console.log()
-// };
+//     let radio = document.querySelector('input[name="ganador"]:checked').value;
+
+
+//    let texto2=document.querySelector('#texto').textContent=(`El aprendiz ${nombre} ${radio} la competencia ${trimestre},en el ${competencia} trimestre durante el mes de ${meses} del año ${año}`);
+
+   
+// }
+
+//tercerafase---------------index_segunda_fase-------------------------------------------------
+function dracula(nombre,meses,año,competencia,trimestre){
+    let arregloo = [];
+    arregloo.push();
+    return
+};
 

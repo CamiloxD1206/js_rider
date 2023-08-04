@@ -1,12 +1,9 @@
+
 *{
     margin: 0;
     
 }
-.cabeza{
-    text-align: center;
-    background-color: rgb(255, 225, 0);
-    padding: 2%;
-}
+
 .cuerpo{
     margin:20px;
     background-color:black;
@@ -30,3 +27,13 @@
 .botom{
     padding:2%
 }
+.div_opcion{
+    margin: 2%;
+    opacity: 0;
+}
+.div_opcion2{
+    margin: 2%;
+    opacity: 1;
+}
+
+
